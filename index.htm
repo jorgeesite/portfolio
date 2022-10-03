@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Jorge</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/41e3a3746e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text"></div>
+      <p>UI/UX Design</p>
+      <h1>Olá, eu sou o <span>Jorge</span><br> São Paulo Brasil</h1>
+    </div>
+  </div>
+</div>
+<!-------------about------------->
+  <div id="about">
+       <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+          <img src="images/user.png">
+        </div>
+        <div class="sobre-col-2">
+          <h1 class="sub-title">Sobre</h1>
+          <p>Cursando 2º semestre em Análise e Desenvolvimento de Sistema na Universidade UMC localizada no município de Mogi das Cruzes SP, Jorge é natural de São Paulo, casado, tem 42 anos e é Pai do Lucca hehe.<br><br>
+            Tenho Graduação em Marketing Tecnólogo, pela Universidade Braz Cubas, conclui no ano letivo de 2014. Sempre gostou de tecnologia, tanto que em 2004 concluiu dois cursos na Impacta Tecnologia de 40 hs, sendo eles: Lógica e Programação e Flash Mx.<br><br>
+          Atualmente mantêm se atualizado assistindo aulas online na Escola de Tecnologia Alura, uma das maiores escolas online de tecnologia do Brasil, onde vem pegando gosto por <strong>HTML, CSS e Java Script</strong>. 
+          <br><br>"De acordo com o mercado de tecnologia, essas três linguagens são a base para se tornar um profissional de Front-end web development", sendo este o seu foco</b>.</p>
+
+          <div class="table-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experiencia')">Experiência</p>
+          <p class="tab-links" onclick="opentab('educacao')">Educacão</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+          <ul>
+           <li><span>UI/UX</span><br>Design Web Interfaces</li>
+           <li><span>Alura</span><br>CSS Grid: Simplificando layouts 8 hs</li>
+           <li><span>Alura</span><br>CSS Grid: Simplificando layouts 8 hs</li>
+           <li><span>Alura</span><br>Html5 e CSS3: Página Web 16 hs</li>
+           <li><span>Ministério da Educação</span><br>Inovação conectada 200 hs</li>
+           <li><span>Sebrae</span><br>Jornada do cliente Era digital 1,20 hs</li>
+           <li><span>Impacta Tecnologia</span><br>Lógica e programação 40 hs</li>
+           <li><span>Impacta Tecnologia</span><br>Flash Mx 40 hs</li>
+          </ul>
+         </div>
+         <div class="tab-contents" id="experiencia">
+          <ul>
+           <li><span>Construção</span><br>Em breve novos Projetos</li>
+           </ul>
+         </div><div class="tab-contents" id="educacao">
+          <ul>
+           <li><span>Universidade UMC</span><br>Análise em Desenvolvimento de Sistema - Graduação - cursando 2º semestre</li>
+           <li><span>Universidade Braz Cubas</span><br>Técnologo em Marketing - Graduação - concluido ano letivo 2014</li>
+           </ul>
+         </div>
+         </div>
+        </div>
+      </div>
+    </div>
+    <!-----------------------services------------------>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Em construção</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>UI/UX Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam asperiores dignissimos vero commodi dolorem, alias quo eveniet itaque recusandae expedita, illo eius culpa quibusdam! Aperiam pariatur beatae tempora eum cupiditate?</p>
+            <a href="#">leia mais</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Web Designer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam asperiores dignissimos vero commodi dolorem, alias quo eveniet itaque recusandae expedita, illo eius culpa quibusdam! Aperiam pariatur beatae tempora eum cupiditate?</p>
+            <a href="#">leia mais</a>
+          </div>
+        </div>
+        
+      </div>
+
+
+    </div>
+    <!-- -------------portfolio-------------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Em breve</h1>
+        <div class="work-list">
+          <div class="work">
+          <img src="images/work-1.png">
+          <div class="layer">
+            <h3>Social Media Web</h3>
+            <p>O aplicativo conecta você a pessoas talentosas ao redor do mundo.</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+          </div>
+          <div class="work">
+          <img src="images/work-2.png">
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>O aplicativo conecta você a pessoas talentosas ao redor do mundo.</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+          </div>  
+          <div class="work">
+          <img src="images/work-3.png">
+          <div class="layer">
+            <h3>Online Shopping App</h3>
+            <p>O aplicativo conecta você a pessoas talentosas ao redor do mundo.</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+          </div>
+        </div>
+        <a href="#" class="btn">Saiba mais</a> 
+      </div> 
+    </div>
+    <!---------------contact---------------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> contatoapplaud@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone-flip"></i> 11934252556</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=100012962233628" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/jorgeefamilia/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/jorge-de-oliveira-324a69235" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+              <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button> 
+            </form>
+            <spam id="msg"></spam>
+          </div>
+          <div class="copyright">
+            <p>Copyright © Jorge de Oliveira. Todos os direitos deste portfolio estão reservados.</p>
+          </div>
+    </div>
+
+
+    
+
+
+    <script>
+      
+
+
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");      
+      }
+    </script>
+    <script>
+
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemeu.style.right = "0";
+      }
+      function closemenu(){
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzlxWVN6a8fvAXAQ65lizW8ya6nu4sJlxBKMC8i1shfRG4F0acIlIncPLkf8stYHKgupw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+      msg.innerHTML = "Message sent sucessfully"
+      setTimeout(function(){
+        msg.innerHTML = ""
+      },5000)
+      form.reset()
+    })
+    .cat(error => console.error('Error!', error, message))
+  })
+    </script>
+</body>
+</html>
