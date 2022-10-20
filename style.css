@@ -4,9 +4,11 @@
     font-family: 'Poppins' , sans-serif;
     box-sizing: border-box;
     color:#fff;
+    
 }
 html{
     scroll-behavior: smooth;
+    
 }
 body{
 background: #252525;
@@ -18,9 +20,12 @@ height: 100vh;
 background-image: url(images/background.png);
 background-size: cover;
 background-position: center;
+ 
 }
+
 .container{
     padding: 10px 10%;
+   
 
 }
 nav{
@@ -28,23 +33,33 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap ;
+    
 }
 
 .logo{
-   width: 140px; 
+   width: 140px;
+   animation: bounceOutLeft;
+   animation-duration: 2s;
+   
 }
 
 nav ul li{
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
+    
+  
 }
 
 nav ul li a{
     color: #fff;
     text-decoration: none;
     font-size: 18px;
-    position: relative;  
+    position: relative;
+    
+   
+  
+      
 }
 nav ul li a::after{
     content: '';
@@ -62,17 +77,25 @@ nav ul li a::after{
 }
 nav ul li a:hover::after{
     width: 100%;
+   
 
 }
 .header-text{
     margin-top: 20%;
     font-size: 30px;
     color:#fff;
+    
+    
+   
+    
 }
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
     color:#fff;
+   
+    
+    
 }
 .header-text h1 span{
     color: #ff004f;
@@ -81,6 +104,7 @@ nav ul li a:hover::after{
 #about{
     padding: 80px 0;
     color: #fff;
+    
 }
 .row{
     display: flex;
